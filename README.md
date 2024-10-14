@@ -1,23 +1,19 @@
-# KDR-2022
- Korea Aerospace University Drone Racing Trials 2022
+# KDR-2024
+ Korea Aerospace University Drone Racing Trials 2024
  
- 1. Clone this directory
- 2. Download KDR 2022 simulator from 
-   - https://scm.kau.ac.kr/ko/program/all/view/813/notice/view/46?p=1
-   - https://drive.google.com/drive/u/1/folders/1wLymWa2mLiU6dSUah2lqV5ZtwY6eTgS_/
- 3. Open KDR 2022 simulator (KDR_2022.exe)
- 5. Check license acknowledgements
- 6. Enter permission code
- 7. Click run simulator to open simulator 
- 8. Open and run multirotor_example/DemoBaseline.py
+    1. Clone this directory
+    2. Download KDR 2024 simulator from 
+        - https://thenewfeaturecom.sharepoint.com/:f:/s/TheNewFeature/Eg776_boV-5Ohu3QuPi_Qh4BhMRbjOCCKRMQECpa3-L9RA
+    3. Open KDR 2022 simulator (KDR_2024.exe)
+    4. Check license acknowledgements
+    5. Enter permission code
+    6. Click run simulator to open simulator 
+    7. Open and run multirotor_example/DemoBaseline.py
 
-
-
-
-- KDR 2022 simulator runs based on AirSim (https://microsoft.github.io/AirSim/)
+- KDR 2024 simulator runs based on AirSim (https://microsoft.github.io/AirSim/)
 - Server connection is not stable at the moment, however bestlap data is always stored loaclly. By pressing upload best lap button, your locally saved best lap data will be posted online, only if server is online.
-- Feel free to ask questions : retelligence@kakao.com
+- Feel free to ask questions : help@thenewfeature.com
 
 - Create your own code based on DemoBaseline.py and don't forget to add AI functionallity. The gates inside the simulator will have random noises every session. That being said, with only the baseline code, the drone will not make it through the whole path.
 
-- To update the simulator, copy the new .Pak file and paste it into KDR 2022 simulator/KDR_2022/Content/Paks/
+- To update the simulator, copy the new .Pak file and paste it into KDR 2024 simulator/KDR_2024/Content/Paks/
