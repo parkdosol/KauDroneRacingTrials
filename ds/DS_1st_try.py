@@ -1,30 +1,27 @@
-
+# 라이브러리 
 import setup_path
 import airsim
 import WP_Parser
 import os
 import sys
 
-# Desired Speed in m/s
-desired_speed  = 5
+# USER INPUT
+DESIRED_SPEED = 5 # m/s
 
-# WayPoints Data Path
+# Waypoints Data Path
 docs = os.path.join(sys.path[0], "multirotor_example/WayPoints.txt")
 
-# connect to the AirSim simulatori
-client = airsim.MultirotorClient()
+# connect to the AirSim simulator
+client = airsim.MultirotorClient() 
 client.confirmConnection()
 client.enableApiControl(True)
 client.armDisarm(True)
 
-# TakeOff
-print("Taking Off")
+# TakeOff 
+print("★ Taking Off ★")
 client.takeoffAsync().join()
 print("Initializing")
 way_points = []
-
-
-
 
 # Create WayPoint Parser
 WPP = WP_Parser.WP_Data(docs, None)

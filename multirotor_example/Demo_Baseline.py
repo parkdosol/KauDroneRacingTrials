@@ -24,7 +24,7 @@ print("Initializing")
 way_points = []
 
 
-# Create WayPoint Parser
+# Create WayPoint Parser 
 WPP = WP_Parser.WP_Data(docs, None)
 
 # If Found WayPoint Data
